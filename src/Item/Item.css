@@ -1,0 +1,27 @@
+.cards {
+display: inline-block;
+background-color: gray;
+margin: 10px;
+border: solid 1px black;
+
+}
+
+.cards img {
+    height: 200px;
+    width: 200px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 65px;
+    cursor: pointer;
+}

@@ -12,3 +12,12 @@ export const getProductos = () => {
         }, 2000);
     })
 }
+
+export const getUnProducto = (id) => {
+return new Promise((resolve) => {
+    setTimeout(() => {
+        const misProductos = productos.find(prod => prod.id === id)
+        resolve(misProductos)
+    }, 2000);
+})
+}
