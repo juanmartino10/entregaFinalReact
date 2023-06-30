@@ -3,6 +3,9 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
+    background-color: #8D818C;
+    color: #FEFFFE;
+    height: 100px;
 }
 
 li {

@@ -1,9 +1,10 @@
 .cards {
 display: inline-block;
-background-color: gray;
+background-color: #8D818C;
 margin: 10px;
 border: solid 2px black;
 border-radius: 3%;
+color:  #FEFFFE;
 
 }
 
