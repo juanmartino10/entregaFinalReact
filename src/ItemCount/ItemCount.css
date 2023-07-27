@@ -1,0 +1,17 @@
+.botonIncrementar {
+    height: 30px;
+    width: 30px;
+}
+
+.botonDecrementar {
+    height: 30px;
+    width: 30px;
+}
+
+.numeroContador {
+    margin-right: 125px;
+}
+
+.botonAgregar {
+    margin-top: 20px;
+}

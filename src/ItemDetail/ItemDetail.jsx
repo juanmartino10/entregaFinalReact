@@ -4,6 +4,7 @@ import { useContext } from "react"
 import { ItemCount } from "../ItemCount/ItemCount"
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import "./ItemDetail.css"
 
 const ItemDetail = ({ id, nombre, precio, img, stock }) => {
 
@@ -17,11 +18,10 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
         agregarProducto(item, cantidad);
     }
     return (
-        <div>
+        <div className="detalleProductos">
             <h2>Nombre: {nombre}</h2>
             <h4>Precio: {precio}</h4>
             <h5>ID: {id}</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores veritatis, neque adipisci quibusdam enim aliquam accusamus ullam error suscipit sequi doloribus quos, similique, commodi iure velit? Aliquid quasi dolorum iste.</p>
             <img src={img} alt={nombre} />
             {
                 agregarCantidad > 0 ? (<Link to="/Cart"> Terminar Compra </Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad} />)

@@ -1,0 +1,20 @@
+.form {
+    margin: 10px;
+}
+
+.tituloCheckout {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+}

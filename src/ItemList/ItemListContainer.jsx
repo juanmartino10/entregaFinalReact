@@ -23,12 +23,6 @@ useEffect(() => {
     .catch(error => console.log(error))
 }, [idCategoria])
 
-// useEffect(() =>{
-// const funcion = idCategoria ? getProductosPorCategoria : getProductos;
-// funcion(idCategoria)
-// .then(res => setProductos(res))
-// },[idCategoria] )
-
 
 
     return (

@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD5eXx0BWOkbiV_m1XS3-gS-yrvndpnxLQ",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "entregareact-5df1a.firebaseapp.com",
     projectId: "entregareact-5df1a",
     storageBucket: "entregareact-5df1a.appspot.com",
