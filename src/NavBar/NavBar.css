@@ -19,3 +19,9 @@ li {
     margin-left: 50px;
 }
 
+.botonNav {
+    width: 70px;
+    text-decoration: none;
+    color: white;
+}
+

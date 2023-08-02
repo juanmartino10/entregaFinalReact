@@ -2,10 +2,13 @@ import ItemListContainer from "./ItemList/ItemListContainer"
 import NavBar from "./NavBar/NavBar"
 import ItemDetailContainer from "./ItemDetailContainer/ItemDetailContainer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css"
 import { CarritoProvider } from "./CarritoContext"
 import Cart from "./Cart/Cart"
 import Checkout from "./Checkout/Checkout"
+
+
 
 const App = () => {
   return (

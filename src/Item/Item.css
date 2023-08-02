@@ -1,31 +1,3 @@
-.cards {
-display: inline-block;
-background-color: black;
-margin: 10px;
-border: solid 2px black;
-border-radius: 3%;
-color:  #FEFFFE;
-
-}
-
-.cards img {
-    height: 200px;
-    width: 200px;
-}
-
-h3 {
-    display: flex;
-    justify-content: center;
-}
-
-p {
-    display: flex;
-    justify-content: center;
-}
-
-.botonItem {
-    margin-left: 65px;
-    cursor: pointer;
-    height: 20px;
-    width: 70px;
+.carta {
+    margin-left: 200px;
 }
