@@ -21,12 +21,12 @@ const Checkout = () => {
 
 
         if (!nombre || !apellido || !telefono || !email || !emailConfirmacion) {
-            setError("Por favor completa todos los campos o moriras");
+            setError("Por favor completa todos los campos");
             return;
         }
 
         if (email !== emailConfirmacion) {
-            setError("Los campos del email no coinciden, maldito!!!");
+            setError("Los campos del email no coinciden");
             return;
         }
 
