@@ -1,7 +1,6 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: white;
     color: #FEFFFE;
     height: 100px;
@@ -16,12 +15,11 @@ li {
 .logoTienda {
     height: 90px;
     width: 90px;
-    margin-left: 50px;
+    border-radius: 30%;
 }
 
 .botonNav {
-    width: 70px;
-    text-decoration: none;
-    color: white;
+height: 40px;
+width: 90px;
 }
 
