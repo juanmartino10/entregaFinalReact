@@ -1,12 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
-
-
-
-
-
-
 export const Item = ({ id, nombre, precio, img, stock }) => {
     return (
                     <Card style={{ width: '18rem' }} className="d-inline-block m-2 bg-secondary border-dark text-center align-items-center">
